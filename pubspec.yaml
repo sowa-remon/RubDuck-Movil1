@@ -1,0 +1,36 @@
+name: rubduck_movil
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Jost
+      fonts: 
+        - asset: assets/fonts/JostRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/JostRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/JostRomanMedium.ttf
+          weight: 500
+    - family: Belanosima
+      fonts: 
+        - asset: assets/fonts/BelanosimaSemiBold.ttf
+          weight: 600
+    - family: Ubuntu Mono
+      fonts: 
+        - asset: assets/fonts/UbuntuMonoRegular.ttf
+          weight: 400
